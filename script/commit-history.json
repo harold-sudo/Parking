@@ -19,17 +19,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2f795774c835b853e03595e6c62cdd65c7f42839",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-08T23:54:45.000Z",
       "message": "Feat: Refactorizando",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/2f795774c835b853e03595e6c62cdd65c7f42839"
     },
     "stats": {
       "total": 15,
       "additions": 9,
       "deletions": 6,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T23:57:41.000Z",
+      "message": "Style: Function",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
       "date": "2025-09-08"
     },
     "coverage": 100,
