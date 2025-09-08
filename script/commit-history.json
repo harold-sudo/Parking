@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T23:41:36.000Z",
+      "message": "First commit: Cobro para 1 hora",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 6010,
+      "additions": 2730,
+      "deletions": 3280,
+      "date": "2025-09-08"
+    },
+    "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
