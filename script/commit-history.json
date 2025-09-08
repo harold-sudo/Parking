@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "67ccc94c09140752db178abd859f7fec5e327625",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-08T23:41:36.000Z",
       "message": "First commit: Cobro para 1 hora",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/67ccc94c09140752db178abd859f7fec5e327625"
     },
     "stats": {
       "total": 6010,
@@ -14,6 +14,25 @@
       "date": "2025-09-08"
     },
     "coverage": 0,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-08T23:54:45.000Z",
+      "message": "Feat: Refactorizando",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 9,
+      "deletions": 6,
+      "date": "2025-09-08"
+    },
+    "coverage": 100,
     "test_count": 1,
     "failed_tests": 0,
     "conclusion": "success"

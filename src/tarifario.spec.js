@@ -1,9 +1,7 @@
+import tarifario from "./tarifario.js";
+
 describe("Tarifario", () => {
-  it("deberia tarifar 1 hora", () => {
-    expect(tarifa()).toEqual("10 bs.");
+  it("tarifar para 1 hora", () => {
+    expect(tarifario(1)).toEqual("10 bs.");
   });
 });
-
-function tarifa() {
-    return "10 bs.";
-}
