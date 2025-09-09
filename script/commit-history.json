@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6cdf3dbeb48da02ec29307e5793c8dd359e6943d",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T00:05:02.000Z",
       "message": "Test: Tarifar fraccionado",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/6cdf3dbeb48da02ec29307e5793c8dd359e6943d"
     },
     "stats": {
       "total": 16,
       "additions": 10,
       "deletions": 6,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T00:17:24.000Z",
+      "message": "Style: Redondeo monetario a dos dígitos",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 7,
+      "deletions": 5,
       "date": "2025-09-09"
     },
     "coverage": 100,
