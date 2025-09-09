@@ -114,17 +114,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8f717d6b42fd6c261b8c78a675073a3e6b355353",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T02:36:24.000Z",
       "message": "Feat: Tope máximo",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/8f717d6b42fd6c261b8c78a675073a3e6b355353"
     },
     "stats": {
       "total": 11,
       "additions": 11,
       "deletions": 0,
+      "date": "2025-09-09"
+    },
+    "coverage": 83.33,
+    "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T02:38:37.000Z",
+      "message": "Fix: Tope máximo",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 0,
+      "deletions": 2,
       "date": "2025-09-09"
     },
     "coverage": 83.33,

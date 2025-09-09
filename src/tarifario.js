@@ -1,5 +1,3 @@
-import e from "express";
-
 function tarifario(hora, minutos) {
     if (minutos > 0) {
         hora += 1; // redondear hacia arriba si hay minutos adicionales
