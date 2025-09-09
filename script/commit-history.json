@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b4568d71ea707a365c7e4170df0feebf3551e089",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T00:17:24.000Z",
       "message": "Style: Redondeo monetario a dos dígitos",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/b4568d71ea707a365c7e4170df0feebf3551e089"
     },
     "stats": {
       "total": 12,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T02:36:24.000Z",
+      "message": "Feat: Tope máximo",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2025-09-09"
+    },
+    "coverage": 83.33,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -13,5 +13,8 @@ describe("Tarifario", () => {
         expect(tarifario(1, 30)).toEqual("BS. 20.00");
     });
 
+    it("tarifar con tope máximo", () => {
+        expect(tarifario(12)).toEqual("BS. 50.00");
+    });
 
 });
