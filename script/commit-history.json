@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e280be52b8ad25cf5d6a9b0eab803eac03db5ae6",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T00:02:26.000Z",
       "message": "Feat: Tarifar fraccionado",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/e280be52b8ad25cf5d6a9b0eab803eac03db5ae6"
     },
     "stats": {
       "total": 10,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T00:05:02.000Z",
+      "message": "Test: Tarifar fraccionado",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 10,
+      "deletions": 6,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
