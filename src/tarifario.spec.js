@@ -5,4 +5,7 @@ describe("Tarifario", () => {
     expect(tarifario(1)).toEqual("10 bs.");
   });
 
+  it("tarifar para 1 hora 30 min (fraccionado)", () => {
+    expect(tarifario(1, 30)).toEqual("20 bs.");
+  });
 });
