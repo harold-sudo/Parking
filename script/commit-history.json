@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f7714fb232b6876a546a06c62df5f2142112707e",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T02:46:22.000Z",
       "message": "Feat: Tarifa nocturna",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/f7714fb232b6876a546a06c62df5f2142112707e"
     },
     "stats": {
       "total": 54,
@@ -166,6 +166,25 @@
       "date": "2025-09-09"
     },
     "coverage": 73.91,
+    "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T02:54:59.000Z",
+      "message": "Refactoring: Simplicación de la función",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 72,
+      "additions": 43,
+      "deletions": 29,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
     "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
