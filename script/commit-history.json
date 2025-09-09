@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "856896101b24dbd5fcae22709d8a77730c167e6d",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T02:38:37.000Z",
       "message": "Fix: Tope máximo",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/856896101b24dbd5fcae22709d8a77730c167e6d"
     },
     "stats": {
       "total": 2,
@@ -148,6 +148,25 @@
     },
     "coverage": 83.33,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T02:46:22.000Z",
+      "message": "Feat: Tarifa nocturna",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 54,
+      "additions": 37,
+      "deletions": 17,
+      "date": "2025-09-09"
+    },
+    "coverage": 73.91,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
