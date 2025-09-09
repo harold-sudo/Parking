@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b493d44c121c9fcc17919fa9e383f6740369fa55",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T02:54:59.000Z",
       "message": "Refactoring: Simplicación de la función",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/b493d44c121c9fcc17919fa9e383f6740369fa55"
     },
     "stats": {
       "total": 72,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-09T02:57:15.000Z",
+      "message": "Test: Tarifar de noche fraccionado",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

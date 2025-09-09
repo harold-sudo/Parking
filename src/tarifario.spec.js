@@ -21,4 +21,8 @@ describe("Tarifario", () => {
         expect(tarifario(4, 0,"pm")).toEqual("BS. 24.00");
     });
 
+    it("tarifar de noche fraccionado", () => {
+        expect(tarifario(1, 45,"pm")).toEqual("BS. 12.00");
+    });
+
 });
