@@ -27,4 +27,3 @@ function tarifario(hora, minutos, turno, ticket) {
 }
 
 export default tarifario;
-

@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2fef251d3a2ab0933f5d248785d886ebe2129bc5",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T22:47:45.000Z",
       "message": "Test: Evaluar función fraccionar sin fraccionar",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/2fef251d3a2ab0933f5d248785d886ebe2129bc5"
     },
     "stats": {
       "total": 9,
@@ -337,6 +337,25 @@
       "date": "2025-09-10"
     },
     "coverage": 96.72,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T23:59:25.000Z",
+      "message": "refactor: función tiempo fraccionado",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 265,
+      "additions": 163,
+      "deletions": 102,
+      "date": "2025-09-10"
+    },
+    "coverage": 96.15,
     "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
