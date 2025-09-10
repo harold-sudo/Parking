@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c69b04799a07e7271e521a1d7a7d13121cc6d586",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T18:47:33.000Z",
       "message": "Test: Turno nocturno",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/c69b04799a07e7271e521a1d7a7d13121cc6d586"
     },
     "stats": {
       "total": 6,
@@ -281,6 +281,25 @@
     },
     "coverage": 95.24,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T19:13:28.000Z",
+      "message": "Test: Fraccionar en caso de varios días",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 140,
+      "additions": 126,
+      "deletions": 14,
+      "date": "2025-09-10"
+    },
+    "coverage": 96.61,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

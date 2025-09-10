@@ -18,4 +18,5 @@ describe("Tiempo de estadía: ", () => {
         const salida = new Date(2023, 0, 2, 0, 30);
         expect(tiempo(ingreso, salida)).toEqual({ horas: 1, minutos: 0, tipo: "nocturno" });
     });
+
 });
