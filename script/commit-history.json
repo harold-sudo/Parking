@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b786fb40c4829798a3e0b27d58980158efdc033f",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T18:34:20.000Z",
       "message": "Feat: obtener tiempo a partir de fecha y hora",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/b786fb40c4829798a3e0b27d58980158efdc033f"
     },
     "stats": {
       "total": 45,
@@ -243,6 +243,25 @@
     },
     "coverage": 95.24,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T18:37:07.000Z",
+      "message": "Test: obtener tiempo para 1hr y 30min",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
+      "date": "2025-09-10"
+    },
+    "coverage": 95.24,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
