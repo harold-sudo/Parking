@@ -13,4 +13,13 @@ describe("Tiempo de estadía: ", () => {
             { horas: 1, minutos: 0, tipo: "diurno" }
         ]);
     });
+
+    it("Caso sin fraccionar", () => {
+        const ingreso = new Date(2025, 9, 9, 10, 0);
+        const salida = new Date(2025, 9, 9, 18, 0);
+
+        expect(fraccionarTiempo(ingreso, salida)).toEqual([
+            { horas: 8, minutos: 0, tipo: "diurno" }
+        ]);
+    });
 });
