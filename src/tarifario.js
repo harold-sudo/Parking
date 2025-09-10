@@ -1,7 +1,7 @@
 
 function tarifario(hora, minutos, turno) {
   let total = 0;
-  if (turno === "am") {
+  if (turno === "diurno") {
       if (minutos > 0) {
           hora += 1; // redondear hacia arriba si hay minutos adicionales
       }

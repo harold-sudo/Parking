@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ae1f5fde4270aacd83c296dd86128e0ffe0b7b83",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T01:12:06.000Z",
       "message": "Test: Tarifar de noche con más horas",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/ae1f5fde4270aacd83c296dd86128e0ffe0b7b83"
     },
     "stats": {
       "total": 73,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T18:34:20.000Z",
+      "message": "Feat: obtener tiempo a partir de fecha y hora",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 45,
+      "additions": 37,
+      "deletions": 8,
+      "date": "2025-09-10"
+    },
+    "coverage": 95.24,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
