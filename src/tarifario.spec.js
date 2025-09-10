@@ -25,4 +25,8 @@ describe("Tarifario", () => {
         expect(tarifario(1, 45,"pm")).toEqual("BS. 12.00");
     });
 
+    it("tarifar de noche con más de 4 horas", () => {
+        expect(tarifario(6, 0,"pm")).toEqual("BS. 36.00");
+    });
+    
 });

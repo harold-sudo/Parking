@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ee3a59930aebbb2876c2bc64c82f605116b75c43",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-09T02:57:15.000Z",
       "message": "Test: Tarifar de noche fraccionado",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/ee3a59930aebbb2876c2bc64c82f605116b75c43"
     },
     "stats": {
       "total": 4,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T01:12:06.000Z",
+      "message": "Test: Tarifar de noche con más horas",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 73,
+      "additions": 30,
+      "deletions": 43,
+      "date": "2025-09-10"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
