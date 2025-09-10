@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "22f42b9816563d8eedc7eed8bb194d1c99cc8a3f",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T19:13:28.000Z",
       "message": "Test: Fraccionar en caso de varios días",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/22f42b9816563d8eedc7eed8bb194d1c99cc8a3f"
     },
     "stats": {
       "total": 140,
@@ -300,6 +300,25 @@
     },
     "coverage": 96.61,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T22:43:53.000Z",
+      "message": "Test: Tarifa 80 en cualquier caso de perder ticket",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 67,
+      "additions": 43,
+      "deletions": 24,
+      "date": "2025-09-10"
+    },
+    "coverage": 96.72,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
