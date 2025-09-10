@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a20dbad2c64a1b0c877336be9913075479a42dbb",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T18:37:07.000Z",
       "message": "Test: obtener tiempo para 1hr y 30min",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/a20dbad2c64a1b0c877336be9913075479a42dbb"
     },
     "stats": {
       "total": 8,
@@ -262,6 +262,25 @@
     },
     "coverage": 95.24,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-10T18:47:33.000Z",
+      "message": "Test: Turno nocturno",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2025-09-10"
+    },
+    "coverage": 95.24,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
