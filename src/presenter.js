@@ -1,11 +1,14 @@
-import calcularCostoTotal from './total.js';
+import calcularCostoTotal2 from './desglosar.js';
 
 const form = document.getElementById('registrar-form');
 const resultadoDiv = document.getElementById('resultado-div');
+const desgloseDiv = document.createElement('div');
+desgloseDiv.id = 'desglose-div';
 
 form.addEventListener('submit', (event) => {
   event.preventDefault(); // Evita que la página se recargue
 
+  // 1. Obtener los valores de los campos
   const fechaIngresoStr = document.getElementById('fecha-ingreso').value;
   const horaIngresoStr = document.getElementById('hora-ingreso').value;
   const minutoIngresoStr = document.getElementById('minuto-ingreso').value;
@@ -20,6 +23,7 @@ form.addEventListener('submit', (event) => {
   if (!fechaIngresoStr || !horaIngresoStr || !minutoIngresoStr || 
       !fechaSalidaStr || !horaSalidaStr || !minutoSalidaStr) {
     resultadoDiv.innerHTML = `<h3>Error: Por favor, complete todos los campos de fecha y hora.</h3>`;
+    desgloseDiv.innerHTML = '';
     return; // Detiene la ejecución
   }
 
@@ -40,16 +44,43 @@ form.addEventListener('submit', (event) => {
   try {
     // 6. Validar que las fechas sean válidas antes de calcular
     if (isNaN(ingreso.getTime()) || isNaN(salida.getTime())) {
-      throw new Error("Fechas o horas inválidas. Por favor, revise los datos.");
+      throw new Error("Fechas u horas inválidas. Por favor, revise los datos.");
     }
     
-    // 7. Llamar a la función principal para calcular el costo
-    const costoTotal = calcularCostoTotal(ingreso, salida, ticketPerdido);
-    resultadoDiv.innerHTML = `<p>El costo total es: 
-    <br>
-    ${costoTotal}</p>`;
+    // 7. Llamar a la función principal para obtener el resultado completo
+    const resultado = calcularCostoTotal2(ingreso, salida, ticketPerdido);
+
+    // 8. Mostrar el costo total
+    resultadoDiv.innerHTML = `<h2>El costo total es: ${resultado.costoTotal}</h2>`;
+    
+    // 9. Mostrar el desglose detallado
+    desgloseDiv.innerHTML = '<h3>Detalle de Cobros:</h3>';
+    const ul = document.createElement('ul');
+    
+    resultado.desglose.forEach(item => {
+      const li = document.createElement('li');
+      let texto = '';
+      if (item.tipo === 'día completo') {
+        texto = `Día completo: ${item.costo}`;
+      } else if (item.tipo === 'Penalidad') {
+        texto = `${item.descripcion}: ${item.costo}`;
+      } else {
+        const horas = item.horas > 0 ? `${item.horas}h` : '';
+        const minutos = item.minutos > 0 ? `${item.minutos}m` : '';
+        texto = `Bloque ${item.tipo} (${horas} ${minutos}): ${item.costo}`;
+      }
+      li.textContent = texto;
+      ul.appendChild(li);
+    });
+    
+    desgloseDiv.appendChild(ul);
+
   } catch (error) {
-    // 8. Si ocurre un error, lo mostramos al usuario
+    // 10. Si ocurre un error, lo mostramos al usuario
     resultadoDiv.innerHTML = `<h3>Error: ${error.message}</h3>`;
+    desgloseDiv.innerHTML = '';
   }
 });
+
+// Agregar el div de desglose al cuerpo del HTML
+document.body.appendChild(desgloseDiv);
