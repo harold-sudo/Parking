@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "29be09094fa9227974a74f2609041b7ba7871929",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-10T23:59:25.000Z",
       "message": "refactor: función tiempo fraccionado",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/29be09094fa9227974a74f2609041b7ba7871929"
     },
     "stats": {
       "total": 265,
@@ -357,6 +357,25 @@
     },
     "coverage": 96.15,
     "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-11T00:29:20.000Z",
+      "message": "Feat: calcular costo total",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 85,
+      "additions": 84,
+      "deletions": 1,
+      "date": "2025-09-11"
+    },
+    "coverage": 94.62,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

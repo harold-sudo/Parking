@@ -1,4 +1,4 @@
-// src/fraccionarTiempo.js
+
 // Implementación final y robusta para fraccionar estadías en bloques:
 // - Turno nocturno: 22:00 - 06:00
 // - Turno diurno: 06:00 - 22:00
