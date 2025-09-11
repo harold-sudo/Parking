@@ -31,7 +31,7 @@ export default function calcularCostoTotal(ingreso, salida, ticket) {
             }
         }
 
-    return `Bs. ${costoTotal.toFixed(2)}`;
+    return `BS. ${costoTotal.toFixed(2)}`;
 
     } catch (error) {
         console.error(error.message);
@@ -39,6 +39,6 @@ export default function calcularCostoTotal(ingreso, salida, ticket) {
     }
   }
   else{
-    return "Bs. 80.00";
+    return "BS. 80.00";
     }
 }

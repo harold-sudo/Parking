@@ -380,17 +380,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ac58dc4ccb1668c2d6901f3615eba1405fdc5a1e",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-11T00:45:06.000Z",
       "message": "Refactor: Relación de funciones",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/ac58dc4ccb1668c2d6901f3615eba1405fdc5a1e"
     },
     "stats": {
       "total": 81,
       "additions": 37,
       "deletions": 44,
+      "date": "2025-09-11"
+    },
+    "coverage": 94.51,
+    "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-11T01:22:47.000Z",
+      "message": "Style: html + presenter",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 85,
+      "additions": 66,
+      "deletions": 19,
       "date": "2025-09-11"
     },
     "coverage": 94.51,
