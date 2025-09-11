@@ -25,7 +25,7 @@ export default function calcularCostoTotal(ingreso, salida, ticket) {
             } else {
                 const { horas, minutos, tipo } = bloque;
                 // La función tarifario devuelve un string con 'BS.', así que necesitamos extraer el número.
-                const costoBloqueStr = tarifario(horas, minutos, tipo, ticket);
+                const costoBloqueStr = tarifario(horas, minutos, tipo);
                 const costoBloque = parseFloat(costoBloqueStr.replace('BS. ', ''));
                 costoTotal += costoBloque;
             }

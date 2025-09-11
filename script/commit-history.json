@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d87cdb7aad4d994c67065ae534e5247478ff9ffa",
     "author": "Harold Sejas",
     "commit": {
       "date": "2025-09-11T00:29:20.000Z",
       "message": "Feat: calcular costo total",
-      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+      "url": "https://github.com/harold-sudo/Parking/commit/d87cdb7aad4d994c67065ae534e5247478ff9ffa"
     },
     "stats": {
       "total": 85,
@@ -376,6 +376,25 @@
     },
     "coverage": 94.62,
     "test_count": 21,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Harold Sejas",
+    "commit": {
+      "date": "2025-09-11T00:45:06.000Z",
+      "message": "Refactor: Relación de funciones",
+      "url": "https://github.com/harold-sudo/Parking/commit/HEAD"
+    },
+    "stats": {
+      "total": 81,
+      "additions": 37,
+      "deletions": 44,
+      "date": "2025-09-11"
+    },
+    "coverage": 94.51,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }
